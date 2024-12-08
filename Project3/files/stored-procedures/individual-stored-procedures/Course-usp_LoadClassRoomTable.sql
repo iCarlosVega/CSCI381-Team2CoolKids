@@ -37,6 +37,3 @@ BEGIN
         @WorkFlowStepsTableRowCount = @@ROWCOUNT;
 END;
 GO
-
-EXEC    [Course].[usp_LoadClassRoomTable]      @UserAuthorizationKey = 5
-GO
